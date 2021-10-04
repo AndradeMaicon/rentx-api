@@ -1,6 +1,6 @@
 {
   "env": {
-    "es2020": true,
+    "es2021": true,
     "node": true,
     "jest": true
   },
@@ -17,7 +17,7 @@
   },
   "plugins": [
     "@typescript-eslint",
-    "plugin:@typescript-eslint/recommended",
+    "eslint-plugin-import-helpers",
     "prettier"
   ],
   "rules": {
