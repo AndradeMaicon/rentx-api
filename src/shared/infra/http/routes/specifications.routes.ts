@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
-import { ensureAuthenticated } from '../middleware/ensureAuthenticated';
-import { CreateSpecificationController } from '../modules/cars/useCases/createSpecification/CreateSepecificationController';
+import { CreateSpecificationController } from '@modules/cars/useCases/createSpecification/CreateSepecificationController';
+import { ensureAuthenticated } from '@shared/infra/http/middleware/ensureAuthenticated';
 
 const specificationsRoutes = Router();
 
